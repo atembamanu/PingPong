@@ -11,5 +11,6 @@ public class App {
         ArrayList<Object> pingPongResult;
         pingPongResult = pingPong.runPingPong(UserNumber);
         System.out.println(pingPongResult);
+	System.out.println("Goodbye");
     }
 }
