@@ -12,7 +12,7 @@ public class PingPongTest {
         List<Object> expectedValue = new ArrayList<>();
         expectedValue.add(1);
 
-        assertEquals(expectedValue, pingPong.runPingPong(2));
+        assertEquals(expectedValue, pingPong.runPingPong(1));
     }
 
     @Test
